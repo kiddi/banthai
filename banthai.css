@@ -18,7 +18,7 @@
 
 #action {
 /* width: 150px; */
-height: 50px;
+/* height: 50px; */
 font-family: "Arial";
 font-size: 24pt;
 /* border-radius: 7px; */
@@ -26,7 +26,7 @@ font-size: 24pt;
 text-align: center;
 float: center;
 color: #FF5454;
-padding-top: 100px;
+padding-top: 150px;
 }
 
 .banButton {
