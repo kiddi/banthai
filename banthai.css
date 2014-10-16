@@ -31,6 +31,7 @@ padding-top: 200px;
 
 .banButton {
 margin: auto;
+padding-top: -100px;
 width: 500px;
 height: 300px;
 border: 0;
