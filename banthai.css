@@ -18,15 +18,16 @@
 
 #action {
 /* width: 150px; */
+margin-top: 100px;
 /* height: 50px; */
 font-family: "Arial";
 font-size: 24pt;
 /* border-radius: 7px; */
 /* color: #666; */
 text-align: center;
-float: center;
+/* float: center; */
 color: #FF5454;
-padding-top: 200px;
+padding-top: 50px;
 }
 
 .banButton {
