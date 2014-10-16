@@ -1,31 +1,21 @@
 
 #container { 
+	position: relative;
+	text-align: center;
+	float: center;
 }
 
 #container h1
 {
 	color: #666;
-	float: center;
 	font-size: 48pt;
 }
 
 #container p
 {
 	margin: 5px 0px;
-	float: center;
 	font-size: 18pt;
 }
-
-#results {
-width: 150px;
-height: 50px;
-font-family: "Arial";
-font-size: 14pt;
-border-radius: 7px;
-color: #666;
-text-align: center;
-}
-
 
 .banButton {
 margin: 50px 0px;
@@ -45,6 +35,17 @@ background: #FFBE1A;
 text-align: center;
 /* border-top: 1px solid #6DBCDB; */
 }
+
+.banButtonResults {
+width: 150px;
+height: 50px;
+font-family: "Arial";
+font-size: 14pt;
+border-radius: 7px;
+color: #666;
+text-align: center;
+}
+
 
 
 .banButtonRed {
