@@ -1,1 +1,55 @@
-git@github.com:guffi/banthai.git
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="banthai.css">
+
+	<title>Ban Pizza</title>
+
+	<script>
+		function printArray()
+		{
+			var myObj = new Object();
+			myObj.name = "Fred";
+			myObj.age = 42;
+
+			myObj.getAge = 
+			    function () {
+			        return this.age;
+			    };
+
+			console.log(myObj)
+			
+			document.getElementById("results").innerHTML = (myObj.name);
+			document.getElementById("results").innerHTML += ("<br/>");
+			document.getElementById("results").innerHTML += (myObj.age);
+		};
+	</script>
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="top">
+	  			<h1>What pizza should I have?</h1>
+	  			<br>
+				<p>Click the button and I'll choose a pizza for you! Magic is gonna happen.</p>
+
+				<a href="http://banthai.is"> "You can also check out our awesome site!" </a>
+	  	</div>
+
+	<div id="results">
+	<button type="button" onclick="printArray()" class="banButton">Array</button>
+	</div>
+
+	</div>
+
+</body>
+
+</html>
+
+
+
+
