@@ -1,18 +1,22 @@
+
 #container { 
 	width: 800px; 
 	margin: 0 auto;
 	float: center;
+	background: #017D46;
+	opacity: 40%;
 }
 
 #container h1
 {
-	color: #6DBCDB;
-	float: left;
+	color: #666;
+	float: center;
 }
 
 #container p
 {
 	margin: 5px 0px;
+	float: center;
 }
 
 #results {
