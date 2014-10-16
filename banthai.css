@@ -1,8 +1,5 @@
 
 #container { 
-	width: 800px; 
-	margin: 0 auto;
-	float: center;
 }
 
 #container h1
@@ -42,7 +39,7 @@ font-weight: bold;
 align-self: center;
 align-items: center;
 border-radius: 7px;
-position: fixed;
+position: relative;
 color: #666;
 background: #FFBE1A;
 text-align: center;
