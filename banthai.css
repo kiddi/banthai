@@ -9,12 +9,14 @@
 {
 	color: #666;
 	float: center;
+	font-size: 48pt;
 }
 
 #container p
 {
 	margin: 5px 0px;
 	float: center;
+	font-size: 18pt;
 }
 
 #results {
@@ -29,15 +31,18 @@ text-align: center;
 
 
 .banButton {
-margin: 100px 0px;
+margin: 50px 0px;
 padding: 0;
-width: 150px;
-height: 50px;
+width: 500px;
+height: 300px;
 border: 0;
 font-family: "Arial";
-font-size: 14pt;
+font-size: 36pt;
 font-weight: bold;
+align-self: center;
+align-items: center;
 border-radius: 7px;
+position: fixed;
 color: #666;
 background: #FFBE1A;
 text-align: center;
