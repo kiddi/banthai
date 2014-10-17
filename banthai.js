@@ -13,9 +13,7 @@ function printArray()
 	
 	document.getElementById("action").innerHTML = ("<br/>");
 	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += ("HAVE SOME FUCKING");
+	document.getElementById("action").innerHTML += ("HAVE SOME FUCKING FUCKING");
 	document.getElementById("action").innerHTML += ("<br/>");
 	document.getElementById("action").innerHTML += (myObj.name);
 	document.getElementById("action").innerHTML += ("<br/>");
