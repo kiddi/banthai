@@ -38,18 +38,17 @@ function printMenuItem()
 			name: "Pasta",
 			description: "mmm pasta",
 		},
+	};
 
 	var randomNumber = function () {
 	
-	Math random...
+	};
 
+	console.log("party")
 
-		return
-	}
+	document.getElementById("action").innerHTML = ("<br/>");
+	document.getElementById("action").innerHTML += ("<br/>");	
+	document.getElementById("action").innerHTML += ("HAVE SOME FUCKING FRIKKI");
 
-
-	console.log([randomNumber], menu.[randomNumber].name, menu..description)
-
-	document.getElementById("action").innerHTML = (items.2)
 };
 
