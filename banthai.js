@@ -1,3 +1,5 @@
+alert("I am an alert box!");
+
 function printArray()
 {
 	var myObj = new Object();
