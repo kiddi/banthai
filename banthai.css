@@ -2,7 +2,7 @@
 #container { 
 	text-align: center;
 	float: center;
-	width: 500px;
+	width: auto;
 }
 
 #container h1
