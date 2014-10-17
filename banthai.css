@@ -9,12 +9,14 @@
 {
 	color: #666;
 	font-size: 48pt;
+	width: 100%;
 }
 
 #container p
 {
 	margin: 5px 0px;
 	font-size: 24pt;
+	width: 100%;
 }
 
 #action {
