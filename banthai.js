@@ -13,9 +13,6 @@ function printArray()
 	    };
 
 	console.log(myObj)
-
-	document.getElementById("action").innerHTML = ());
-
 	
 	document.getElementById("action").innerHTML = ("<br/>");
 	document.getElementById("action").innerHTML += ("<br/>");

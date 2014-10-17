@@ -52,17 +52,17 @@ float: center;
 
 
 .banButtonRed {
-margin: 10px 0px;
-padding: 0;
-width: 150px;
-height: 50px;
+margin: auto;
+width: 500px;
+height: 300px;
 border: 0;
 font-family: "Arial";
-font-size: 14pt;
+font-size: 36pt;
 font-weight: bold;
 border-radius: 7px;
 color: #666;
 background: #FF5454;
 text-align: center;
+float: center;
 /* border-top: 1px solid #6DBCDB; */
 }
