@@ -1,5 +1,6 @@
 alert("I am an alert box!");
 
+
 function printArray()
 {
 	var myObj = new Object();
@@ -12,6 +13,9 @@ function printArray()
 	    };
 
 	console.log(myObj)
+
+	document.getElementById("action").innerHTML = ());
+
 	
 	document.getElementById("action").innerHTML = ("<br/>");
 	document.getElementById("action").innerHTML += ("<br/>");
@@ -21,3 +25,34 @@ function printArray()
 	document.getElementById("action").innerHTML += ("<br/>");
 	document.getElementById("action").innerHTML += (myObj.age);
 };
+
+
+
+
+function printMenuItem()
+{
+	var menu = {
+		1: {
+			name: "Curry",
+			description: "MMMM curry",
+		},
+
+		2: {
+			name: "Pasta",
+			description: "mmm pasta",
+		},
+
+	var randomNumber = function () {
+	
+	Math random...
+
+
+		return
+	}
+
+
+	console.log([randomNumber], menu.[randomNumber].name, menu..description)
+
+	document.getElementById("action").innerHTML = (items.2)
+};
+
