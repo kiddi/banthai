@@ -1,4 +1,4 @@
-alert("I am an alert box!");
+/* alert("I am an alert box!"); */
 
 
 function printArray()
@@ -28,7 +28,8 @@ function printArray()
 
 function printMenuItem()
 {
-	var menu = {
+	var menu = 
+	{
 		1: {
 			name: "Curry",
 			description: "MMMM curry",
@@ -40,15 +41,23 @@ function printMenuItem()
 		},
 	};
 
-	var randomNumber = function () {
-	
-	};
+	// CREATE A VARIABLE WITH A FOR LOOP THAT GIVES ME THE LENGTH OF THE OBJECT !!!!!!!!!!!!!! THEN REPLACE * 2 WITH THAT VARIABLE
 
-	console.log("party")
+	var randomNumber = Math.floor(Math.random() * 2) + 1;
+
+	console.log(menu.length)
+	console.log(randomNumber)
 
 	document.getElementById("action").innerHTML = ("<br/>");
 	document.getElementById("action").innerHTML += ("<br/>");	
-	document.getElementById("action").innerHTML += ("HAVE SOME FUCKING FRIKKI");
-
+	//document.getElementById("action").innerHTML += (randomNumber);
+	document.getElementById("action").innerHTML += ("Course #" + randomNumber);
+	document.getElementById("action").innerHTML += ("<br/>");
+	document.getElementById("action").innerHTML += (menu[randomNumber].name);
+	document.getElementById("action").innerHTML += ("<br/>");
+	document.getElementById("action").innerHTML += (menu[randomNumber].description);
+	document.getElementById("action").innerHTML += ("<br/>");
+	document.getElementById("action").innerHTML += ("<br/>");
+	document.getElementById("action").innerHTML += ("<a onclick='printMenuItem()'>I DON'T FUCKING WANT THIS</a>");
 };
 
