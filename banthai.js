@@ -1,32 +1,5 @@
 /* alert("Til hammó með ammó!"); */
 
-
-function printArray()
-{
-	var myObj = new Object();
-	myObj.name = "Fred";
-	myObj.age = 42;
-
-	myObj.getAge = 
-	    function () {
-	        return this.age;
-	    };
-
-	console.log(myObj)
-	
-	var actionElement = document.getElementById("action");
-	actionElement.innerHTML = ("<br/>");
-	actionElement.innerHTML += ("<br/>");
-	actionElement.innerHTML += ("HAVE SOME FUCKING FUCKING");
-	actionElement.innerHTML += ("<br/>");
-	actionElement.innerHTML += (myObj.name);
-	actionElement.innerHTML += ("<br/>");
-	actionElement.innerHTML += (myObj.age);
-};
-
-
-
-
 function printMenuItem()
 {
 	var menu = 
