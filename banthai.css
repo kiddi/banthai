@@ -3,6 +3,7 @@
 	text-align: center;
 	float: center;
 	width: auto;
+	font-family: Lato, Arial, sans-serif;
 }
 
 #container h1
@@ -10,7 +11,6 @@
 	color: #666;
 	font-size: 48pt;
 	width: 100%;
-	font-family: Lato, Arial, sans-serif;
 }
 
 #container p
@@ -24,7 +24,6 @@
 /* width: 150px; */
 margin-top: 50px;
 /* height: 50px; */
-font-family: "Arial";
 font-size: 24pt;
 /* border-radius: 7px; */
 /* color: #666; */
@@ -34,12 +33,31 @@ color: #FF5454;
 /* padding-top: 50px; */
 }
 
+#menuItemCourse {
+font-size: 18pt;
+color: #666;
+}
+
+#menuItemName {
+font-size: 28pt;
+color: #666;
+}
+
+#menuItemDescription {
+font-size: 14pt;
+color: #666;
+}
+
+.actionH3 {
+font-size: 18pt;
+color: #666;
+}
+
 .banButton {
 margin: auto;
 width: 500px;
 height: 300px;
 border: 0;
-font-family: "Arial";
 font-size: 36pt;
 font-weight: bold;
 border-radius: 7px;
@@ -50,19 +68,16 @@ float: center;
 /* border-top: 1px solid #6DBCDB; */
 }
 
-
 .banButtonRed {
 margin: auto;
 width: 500px;
 height: 300px;
 border: 0;
-font-family: "Arial";
 font-size: 36pt;
 font-weight: bold;
 border-radius: 7px;
 color: #666;
 background: #FF5454;
 text-align: center;
-float: center;
 /* border-top: 1px solid #6DBCDB; */
 }

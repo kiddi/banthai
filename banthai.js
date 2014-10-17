@@ -1,4 +1,4 @@
-/* alert("I am an alert box!"); */
+/* alert("Til hammó með ammó!"); */
 
 
 function printArray()
@@ -14,13 +14,14 @@ function printArray()
 
 	console.log(myObj)
 	
-	document.getElementById("action").innerHTML = ("<br/>");
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += ("HAVE SOME FUCKING FUCKING");
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += (myObj.name);
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += (myObj.age);
+	var actionElement = document.getElementById("action");
+	actionElement.innerHTML = ("<br/>");
+	actionElement.innerHTML += ("<br/>");
+	actionElement.innerHTML += ("HAVE SOME FUCKING FUCKING");
+	actionElement.innerHTML += ("<br/>");
+	actionElement.innerHTML += (myObj.name);
+	actionElement.innerHTML += ("<br/>");
+	actionElement.innerHTML += (myObj.age);
 };
 
 
@@ -48,16 +49,14 @@ function printMenuItem()
 	console.log(menu.length)
 	console.log(randomNumber)
 
-	document.getElementById("action").innerHTML = ("<br/>");
-	document.getElementById("action").innerHTML += ("<br/>");	
-	//document.getElementById("action").innerHTML += (randomNumber);
-	document.getElementById("action").innerHTML += ("Course #" + randomNumber);
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += (menu[randomNumber].name);
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += (menu[randomNumber].description);
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += ("<br/>");
-	document.getElementById("action").innerHTML += ("<a onclick='printMenuItem()'>I DON'T FUCKING WANT THIS</a>");
+	document.getElementById("action").innerHTML = ("</br>");
+	document.getElementById("action").innerHTML += ("</br>");
+	document.getElementById("action").innerHTML += ("</br>");
+	document.getElementById("action").innerHTML += ("<div class='actionH3'>HAVE SOME FUCKING");
+	document.getElementById("action").innerHTML += ("<div id='menuItemCourse'>Course #" + randomNumber + "</div>");
+	document.getElementById("action").innerHTML += ("<div id='menuItemName" + menu[randomNumber].name + "</div>");
+	document.getElementById("action").innerHTML += ("<div id='menuItemDescription'>" + menu[randomNumber].description + "</div>");
+	document.getElementById("action").innerHTML += ("</br>");
+	document.getElementById("action").innerHTML += ("<a href='#' class='actionH3' onclick='printMenuItem()'>I DON'T FUCKING WANT THIS</a>");
 };
 
