@@ -13,15 +13,15 @@
 	font-size: 80pt;
 	width: 100%;
 	text-align: center;
-	margin: 150px 0px;
+	margin: 100px 0px;
 	float: center;
 }
 
 #action {
 /* width: 150px; */
-margin-top: 150px;
+/* margin-top: 0px; */
 /* height: 50px; */
-font-size: 24pt;
+/*font-size: 24pt;*/
 /* border-radius: 7px; */
 /* color: #666; */
 text-align: center;
@@ -31,17 +31,32 @@ color: #FF5454;
 }
 
 #menuItemCourse {
-font-size: 18pt;
+margin-top: 30px;
+font-size: 20pt;
 color: #666;
 }
 
 #menuItemName {
-font-size: 28pt;
+margin-top: 5px;
+font-size: 36pt;
+font-weight: bold;
 color: #666;
 }
 
 #menuItemDescription {
 font-size: 14pt;
+color: #666;
+}
+
+#firstMsg {
+margin-top: 50px;
+font-size: 40pt;
+color: #666;
+}
+
+#anotherCourse {
+margin-top: 200px;
+font-size: 40pt;
 color: #666;
 }
 
@@ -57,14 +72,8 @@ text-align: center;
 vertical-align: middle;
 }
 
-.actionH3 {
-margin-top: 150px;
-font-size: 40pt;
-color: #666;
-}
-
 .banButton {
-margin: auto;
+/* margin: auto; */
 width: 800px;
 height: 500px;
 border: 0;
