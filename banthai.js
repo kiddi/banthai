@@ -22,10 +22,7 @@ function printMenuItem()
 	console.log(menu.length)
 	console.log(randomNumber)
 
-	document.getElementById("action").innerHTML = ("</br>");
-	document.getElementById("action").innerHTML += ("</br>");
-	document.getElementById("action").innerHTML += ("</br>");
-	document.getElementById("action").innerHTML += ("<div class='actionH3'>HAVE SOME FUCKING");
+	document.getElementById("action").innerHTML = ("<div class='actionH3'>HAVE SOME FUCKING");
 	document.getElementById("action").innerHTML += ("<div id='menuItemCourse'>Course #" + randomNumber + "</div>");
 	document.getElementById("action").innerHTML += ("<div id='menuItemName" + menu[randomNumber].name + "</div>");
 	document.getElementById("action").innerHTML += ("<div id='menuItemDescription'>" + menu[randomNumber].description + "</div>");

@@ -7,24 +7,14 @@
 	font-family: Lato, Arial, sans-serif;
 }
 
-#container h1
-{
-	color: #666;
-	font-size: 48pt;
-	width: 100%;
-}
-
-#container p
-{
-	margin: 5px 0px;
-	font-size: 24pt;
-	width: 100%;
-}
-
 #top
-{
+{	
+	color: #666;
+	font-size: 80pt;
+	width: 100%;
 	text-align: center;
 	margin: 150px 0px;
+	float: center;
 }
 
 #action {
@@ -69,16 +59,16 @@ vertical-align: middle;
 
 .actionH3 {
 margin-top: 150px;
-font-size: 18pt;
+font-size: 40pt;
 color: #666;
 }
 
 .banButton {
 margin: auto;
-width: 500px;
-height: 300px;
+width: 800px;
+height: 500px;
 border: 0;
-font-size: 36pt;
+font-size: 56pt;
 font-weight: bold;
 border-radius: 7px;
 color: #666;
