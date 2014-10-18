@@ -18,22 +18,27 @@
 }
 
 #action {
-/* width: 150px; */
-/* margin-top: 0px; */
-/* height: 50px; */
-/*font-size: 24pt;*/
-/* border-radius: 7px; */
-/* color: #666; */
+margin-top: 50px;
+font-size: 40pt;
+color: #666;
 text-align: center;
-/* float: center; */
-color: #FF5454;
-/* padding-top: 50px; */
+float: center;
+height: 100px;
+/*margin-bottom: 25px;*/
+}
+
+#firstMsg {
+margin-top: 50px;
+font-size: 40pt;
+color: #666;
+text-align: center;
 }
 
 #menuItemCourse {
-margin-top: 30px;
+margin-top: 100px;
 font-size: 20pt;
 color: #666;
+text-align: center;
 }
 
 #menuItemName {
@@ -41,23 +46,27 @@ margin-top: 5px;
 font-size: 36pt;
 font-weight: bold;
 color: #666;
+text-align: center;
 }
 
 #menuItemDescription {
 font-size: 14pt;
 color: #666;
-}
-
-#firstMsg {
-margin-top: 50px;
-font-size: 40pt;
-color: #666;
+text-align: center;
+margin-bottom: 100px;
 }
 
 #anotherCourse {
-margin-top: 200px;
 font-size: 40pt;
 color: #666;
+/*position: fixed;*/
+bottom: inherit;
+height: auto;
+width: 100%;
+margin-top: 100px;
+margin-bottom: 10px;
+text-align: center;
+vertical-align: middle;
 }
 
 #banWeb {
@@ -84,6 +93,8 @@ color: #666;
 background: #FFBE1A;
 text-align: center;
 float: center;
+position: relative;
+margin-top: 50px;
 /* border-top: 1px solid #6DBCDB; */
 }
 
