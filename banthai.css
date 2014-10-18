@@ -19,6 +19,8 @@
 
 #action {
 margin-top: 50px;
+margin-right: 100px;
+margin-left: 100px;
 font-size: 40pt;
 color: #666;
 text-align: center;
@@ -29,7 +31,7 @@ font-family: Lato, Arial, sans-serif;
 }
 
 #firstMsg {
-margin-top: 50px;
+margin-top: 200px;
 font-size: 40pt;
 color: #666;
 text-align: center;
@@ -46,7 +48,7 @@ text-align: center;
 margin-top: 5px;
 font-size: 72pt;
 font-weight: bold;
-color: #666;
+color: #000;
 text-align: center;
 }
 
