@@ -11,10 +11,10 @@
 {	
 	color: #666;
 	font-size: 80pt;
-	width: 100%;
 	text-align: center;
-	margin: 75px 0px;
-	float: center;
+	margin-top: 75px;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 #action {
