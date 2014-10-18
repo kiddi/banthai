@@ -23,7 +23,8 @@ font-size: 40pt;
 color: #666;
 text-align: center;
 float: center;
-height: 100px;
+height: auto;
+font-family: Lato, Arial, sans-serif;
 /*margin-bottom: 25px;*/
 }
 
@@ -36,14 +37,14 @@ text-align: center;
 
 #menuItemCourse {
 margin-top: 100px;
-font-size: 20pt;
+font-size: 40pt;
 color: #666;
 text-align: center;
 }
 
 #menuItemName {
 margin-top: 5px;
-font-size: 36pt;
+font-size: 72pt;
 font-weight: bold;
 color: #666;
 text-align: center;
@@ -53,7 +54,7 @@ text-align: center;
 font-size: 14pt;
 color: #666;
 text-align: center;
-margin-bottom: 100px;
+margin-bottom: 0px;
 }
 
 #anotherCourse {
@@ -63,7 +64,7 @@ color: #666;
 bottom: inherit;
 height: auto;
 width: 100%;
-margin-top: 100px;
+/*margin-top: 100px;*/
 margin-bottom: 10px;
 text-align: center;
 vertical-align: middle;
@@ -88,7 +89,7 @@ height: 500px;
 border: 0;
 font-size: 56pt;
 font-weight: bold;
-border-radius: 7px;
+border-radius: 15px;
 color: #666;
 background: #FFBE1A;
 text-align: center;
