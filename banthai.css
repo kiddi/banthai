@@ -4,6 +4,7 @@
 	float: center;
 	width: auto;
 	height: 100%;
+	position: relative;;
 	font-family: Lato, Arial, sans-serif;
 }
 
@@ -61,8 +62,10 @@ color: #666;
 }
 
 .banWeb {
-font-size: 18pt;
+font-size: 10pt;
 color: #666;
+position: absolute;
+bottom: 0;
 }
 
 .banButton {
