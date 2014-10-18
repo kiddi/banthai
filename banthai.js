@@ -38,16 +38,16 @@ function printMenuItem()
 
 		8: {
 			name: "Ginger Sauce",
-			description: "Stir-fried  Fish, Pork, Chicken or Squid with ginger and onions.",
+			description: "Stir-fried. Fish, Pork, Chicken or Squid with ginger and onions.",
 		},		
 		9: {
 			name: "Pad krapow",
-			description: "Deep-fried vegetables, prawns or squid seved with honey sauce.",
+			description: "Stir-fried. Lamb, Beef, Pork, Chicken or Squid with fresh chili, holy basil and onions.",
 		},
 
 		10: {
 			name: "Deep fried",
-			description: "mmm pasta",
+			description: "Deep-fried vegetables, prawns or squid seved with honey sauce.",
 		},
 		11: {
 			name: "Stir-fried mixed vegetables",

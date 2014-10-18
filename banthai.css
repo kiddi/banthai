@@ -13,7 +13,7 @@
 	font-size: 80pt;
 	width: 100%;
 	text-align: center;
-	margin: 100px 0px;
+	margin: 75px 0px;
 	float: center;
 }
 
@@ -36,7 +36,7 @@ text-align: center;
 }
 
 #menuItemCourse {
-margin-top: 100px;
+margin-top: 50px;
 font-size: 48pt;
 color: #666;
 text-align: center;
@@ -51,7 +51,7 @@ text-align: center;
 }
 
 #menuItemDescription {
-font-size: 32pt;
+font-size: 24pt;
 color: #666;
 text-align: center;
 margin-bottom: 0px;
@@ -71,7 +71,7 @@ vertical-align: middle;
 }
 
 #banWeb {
-font-size: 18pt;
+font-size: 24pt;
 color: #666;
 position: fixed;
 bottom: 0;
