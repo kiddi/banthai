@@ -20,9 +20,14 @@
 	width: 100%;
 }
 
+#top
+{
+	margin: 150px 0px;
+}
+
 #action {
 /* width: 150px; */
-margin-top: 50px;
+margin-top: 150px;
 /* height: 50px; */
 font-size: 24pt;
 /* border-radius: 7px; */
@@ -49,6 +54,7 @@ color: #666;
 }
 
 .actionH3 {
+margin-top: 150px;
 font-size: 18pt;
 color: #666;
 }
