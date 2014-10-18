@@ -1,6 +1,5 @@
 
 #container { 
-	text-align: center;
 	float: center;
 	width: auto;
 	height: 100%;
@@ -24,6 +23,7 @@
 
 #top
 {
+	text-align: center;
 	margin: 150px 0px;
 }
 
@@ -55,13 +55,7 @@ font-size: 14pt;
 color: #666;
 }
 
-.actionH3 {
-margin-top: 150px;
-font-size: 18pt;
-color: #666;
-}
-
-.banWeb {
+#banWeb {
 font-size: 18pt;
 color: #666;
 position: fixed;
@@ -70,6 +64,13 @@ height: auto;
 width: 100%;
 margin-bottom: 50px;
 text-align: center;
+vertical-align: middle;
+}
+
+.actionH3 {
+margin-top: 150px;
+font-size: 18pt;
+color: #666;
 }
 
 .banButton {
