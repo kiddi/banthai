@@ -19,15 +19,21 @@
 
 #action {
 margin-top: 50px;
-margin-right: 100px;
-margin-left: 100px;
 font-size: 40pt;
 color: #666;
-text-align: center;
 float: center;
 height: auto;
 font-family: Lato, Arial, sans-serif;
 /*margin-bottom: 25px;*/
+}
+
+#afterAction{
+float: center;
+width: auto;
+text-align: center;
+height: 100%;
+position: relative;
+font-family: Lato, Arial, sans-serif;
 }
 
 #firstMsg {
@@ -62,12 +68,11 @@ margin-bottom: 0px;
 #anotherCourse {
 font-size: 40pt;
 color: #666;
-/*position: fixed;*/
-bottom: inherit;
+position: fixed;
+bottom: 200px;
 height: auto;
 width: 100%;
-/*margin-top: 100px;*/
-margin-bottom: 10px;
+margin-bottom: 50px;
 text-align: center;
 vertical-align: middle;
 }
@@ -113,4 +118,14 @@ color: #666;
 background: #FF5454;
 text-align: center;
 /* border-top: 1px solid #6DBCDB; */
+}
+
+.just {
+margin-top: 50px;
+font-size: 40pt;
+color: #666;
+float: center;
+height: auto;
+font-family: Lato, Arial, sans-serif;
+text-align: center;
 }
