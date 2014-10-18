@@ -3,6 +3,7 @@
 	text-align: center;
 	float: center;
 	width: auto;
+	height: 100%;
 	font-family: Lato, Arial, sans-serif;
 }
 
@@ -55,6 +56,11 @@ color: #666;
 
 .actionH3 {
 margin-top: 150px;
+font-size: 18pt;
+color: #666;
+}
+
+.banWeb {
 font-size: 18pt;
 color: #666;
 }
