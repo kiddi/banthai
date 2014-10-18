@@ -13,6 +13,7 @@
 	font-size: 80pt;
 	text-align: center;
 	margin-top: 75px;
+	margin-bottom: 150px;
 	margin-right: 100px;
 	margin-left: 100px;
 }
@@ -45,8 +46,15 @@ text-align: center;
 
 #menuItemCourse {
 margin-top: 50px;
-font-size: 48pt;
+font-size: 24pt;
 color: #666;
+text-align: center;
+}
+
+#menuItemCourseNumber {
+font-size: 36pt;
+font-weight: bold;
+color: #000;
 text-align: center;
 }
 
@@ -91,9 +99,11 @@ vertical-align: middle;
 
 .banButton {
 /* margin: auto; */
-width: 800px;
-height: 500px;
+width: 350px;
+height: 200px;
 border: 0;
+font-family: times;
+font-style: italic;
 font-size: 56pt;
 font-weight: bold;
 border-radius: 15px;
@@ -108,8 +118,8 @@ margin-top: 50px;
 
 .banButtonRed {
 margin: auto;
-width: 500px;
-height: 300px;
+width: 150px;
+height: 70px;
 border: 0;
 font-size: 36pt;
 font-weight: bold;
@@ -120,7 +130,7 @@ text-align: center;
 /* border-top: 1px solid #6DBCDB; */
 }
 
-.just {
+#just {
 margin-top: 50px;
 font-size: 40pt;
 color: #666;
