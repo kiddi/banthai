@@ -25,6 +25,7 @@ color: #666;
 float: center;
 height: auto;
 font-family: Lato, Arial, sans-serif;
+position: relative;
 /*margin-bottom: 25px;*/
 }
 
@@ -77,6 +78,15 @@ margin-right: 100px;
 margin-left: 100px;
 }
 
+#chili {
+float: center;
+width: 15%;
+margin-right: 100px;
+margin-left: 100px;
+position: absolute;
+left: 40%;
+}
+
 #anotherCourse {
 font-size: 40pt;
 color: #666;
@@ -103,7 +113,7 @@ vertical-align: middle;
 
 .banButton {
 /* margin: auto; */
-width: 350px;
+width: em(350px);
 height: 200px;
 border: 0;
 font-family: times;
