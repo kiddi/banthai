@@ -6,54 +6,28 @@
 	<link rel="stylesheet" href="banthai.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<script src="banthai.js"></script>
-
-	<script>
-		function printArray()
-		{
-			var myObj = new Object();
-			myObj.name = "Fred";
-			myObj.age = 42;
-
-			myObj.getAge = 
-			    function () {
-			        return this.age;
-			    };
-
-			console.log(myObj)
-			
-			document.getElementById("action").innerHTML = ("<br/>");
-			document.getElementById("action").innerHTML += ("<br/>");
-			document.getElementById("action").innerHTML += ("<br/>");
-			document.getElementById("action").innerHTML += ("<br/>");
-			document.getElementById("action").innerHTML += ("HAVE SOME FUCKING");
-			document.getElementById("action").innerHTML += ("<br/>");
-			document.getElementById("action").innerHTML += (myObj.name);
-			document.getElementById("action").innerHTML += ("<br/>");
-			document.getElementById("action").innerHTML += (myObj.age);
-		};
-	</script>
 </head>
 
 <body>
-
 	<div id="container">
+		
 		<div id="top">
-	  			<h1>WHATTHEFUCKSHOULD</h1>
-	  			<br>
-	  			<h1>IHAVEATELDSMIDJAN?</h1>
-	  			<br>
-				<h3>JUST CLICK THE FUCKING BUTTON</h3>
+	  			WHAT THE FUCK SHOULD I HAVE AT BAN THAI?
+		</div>
 
-				<a href="http://banthai.is">You can also check out our awesome site!</a>
-		<div id="action">
-
-			<button type="button" onclick="printArray()" class="banButton">Choose a pizza!</button>
-			
+		<a href="http://banthai.is" id="banWeb">You can also check out our fucking awesome site!</a>
+	
+	</div>
+		
+	<div id="action">
+		<div id="just"> JUST CLICK THE FUCKING BUTTON </div>
+				
+		<div id="afterAction">
+			<button type="button" onclick="printMenuItem()" class="banButton">Button</button>
 		</div>
 	</div>
-
-	</div>
-
+	
+	
 </body>
 
 </html>

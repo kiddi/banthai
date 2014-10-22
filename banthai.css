@@ -1,68 +1,157 @@
 
 #container { 
-	text-align: center;
 	float: center;
 	width: auto;
-}
-
-#container h1
-{
-	color: #666;
-	font-size: 48pt;
-	width: 100%;
+	height: 100%;
+	position: relative;;
 	font-family: Lato, Arial, sans-serif;
 }
 
-#container p
-{
-	margin: 5px 0px;
-	font-size: 24pt;
-	width: 100%;
+#top
+{	
+	color: #000;
+	font-size: 76pt;
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 15px;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 #action {
-/* width: 150px; */
 margin-top: 50px;
-/* height: 50px; */
-font-family: "Arial";
-font-size: 24pt;
-/* border-radius: 7px; */
-/* color: #666; */
+font-size: 40pt;
+color: #666;
+float: center;
+height: auto;
+font-family: Lato, Arial, sans-serif;
+position: relative;
+/*margin-bottom: 25px;*/
+}
+
+#afterAction{
+float: center;
+width: auto;
 text-align: center;
-/* float: center; */
-color: #FF5454;
-/* padding-top: 50px; */
+height: 100%;
+position: relative;
+font-family: Lato, Arial, sans-serif;
+}
+
+#firstMsg {
+margin-top: 15px;
+font-size: 40pt;
+color: #666;
+text-align: center;
+}
+
+#menuItemCourse {
+margin-top: 25px;
+font-size: 24pt;
+color: #666;
+text-align: center;
+}
+
+#menuItemCourseNumber {
+font-size: 36pt;
+font-weight: bold;
+color: #000;
+text-align: center;
+}
+
+#menuItemName {
+margin-top: 5px;
+font-size: 72pt;
+font-weight: bold;
+color: #000;
+text-align: center;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+#menuItemDescription {
+font-size: 24pt;
+color: #666;
+text-align: center;
+margin-bottom: 0px;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+#chili {
+float: center;
+width: 30%;
+margin-right: 100px;
+margin-left: 100px;
+position: absolute;
+left: 30%;
+}
+
+#anotherCourse {
+font-size: 40pt;
+color: #666;
+position: fixed;
+bottom: 125px;
+height: auto;
+width: 100%;
+margin-bottom: 50px;
+text-align: center;
+vertical-align: middle;
+}
+
+#banWeb {
+font-size: 24pt;
+color: #666;
+position: fixed;
+bottom: 0;
+height: auto;
+width: 100%;
+margin-bottom: 50px;
+text-align: center;
+vertical-align: middle;
 }
 
 .banButton {
-margin: auto;
-width: 500px;
-height: 300px;
+/* margin: auto; */
+width: em(350px);
+height: 200px;
 border: 0;
-font-family: "Arial";
-font-size: 36pt;
+font-family: times;
+font-style: italic;
+font-size: 56pt;
 font-weight: bold;
-border-radius: 7px;
-color: #666;
+border-radius: 15px;
+color: #333;
 background: #FFBE1A;
 text-align: center;
 float: center;
+position: relative;
+margin-top: 50px;
 /* border-top: 1px solid #6DBCDB; */
 }
 
-
 .banButtonRed {
-margin: 10px 0px;
-padding: 0;
+margin: auto;
 width: 150px;
-height: 50px;
+height: 70px;
 border: 0;
-font-family: "Arial";
-font-size: 14pt;
+font-size: 36pt;
 font-weight: bold;
 border-radius: 7px;
 color: #666;
 background: #FF5454;
 text-align: center;
 /* border-top: 1px solid #6DBCDB; */
+}
+
+#just {
+margin-top: 50px;
+margin-right: 100px;
+margin-left: 100px;
+font-size: 40pt;
+color: #666;
+float: center;
+height: auto;
+font-family: Lato, Arial, sans-serif;
+text-align: center;
 }
