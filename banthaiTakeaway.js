@@ -43,7 +43,7 @@ function printMenuItem()
 			chili: 0,
 		},
 
-		:8 {
+		8: {
 			name: "Ginger Sauce",
 			description: "Stir-fried. Fish, Pork, Chicken or Squid with ginger and onions.",
 			chili: 0,
@@ -81,7 +81,7 @@ function printMenuItem()
 
 	document.getElementById("action").innerHTML = ("<div id='firstMsg'>HAVE SOME FUCKING");
 	document.getElementById("action").innerHTML += ("<div id='menuItemCourse'>Course </div>");
-	document.getElementById("action").innerHTML += ("<div id='menuItemCourseNumber'> # "+  (randomNumber + 44) + "</div>");
+	document.getElementById("action").innerHTML += ("<div id='menuItemCourseNumber'> # "+  (randomNumber) + "</div>");
 	document.getElementById("action").innerHTML += ("<div id='menuItemName'>" + menu[randomNumber].name + "</div>");
 	document.getElementById("action").innerHTML += ("<div id='menuItemDescription'>" + menu[randomNumber].description + "</div>");
 	document.getElementById("action").innerHTML += ("</br>");
